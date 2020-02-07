@@ -10,9 +10,12 @@ const showResult=(res)=>{
 
 // 发送抢购
 function sendSX(){
-    send.SendForm(config.url,querystring.stringify(config.form),config.cookie,showResult);
+    config.forEach(e => {
+        send.SendForm(e.url,querystring.stringify(e.form),e.cookie,showResult);
+    });
 }
 
+sendSX();
 setInterval(() => {
     sendSX();
 }, 50);
