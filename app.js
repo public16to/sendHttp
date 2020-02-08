@@ -18,4 +18,4 @@ function sendSX(){
 sendSX();
 setInterval(() => {
     sendSX();
-}, 50);
+}, 100);
