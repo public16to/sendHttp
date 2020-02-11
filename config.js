@@ -1,7 +1,7 @@
 module.exports=[
     {
     url:"http://220.191.224.121:8090/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=E2AC1FF5C1258F7461AB0CD1FA8AB4EA; JSESSIONID=8150FC9402EE7CCC62DE197D7E718709",
+    cookie:"",
     form:{
         "33ee9aa299353626ed27f889002fc9c3":"330624196311252043",
         "119014bd9a4bad5e841d4f3539e578c7":"吴瑶珍",
@@ -14,7 +14,7 @@ module.exports=[
         },
     },{
     url:"http://220.191.224.124:8090/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=ABF2C68B857F3CEBC58356F3A887BA9F; JSESSIONID=BA39D421505EE9ED2B1E77F5CBA0FEFE",
+    cookie:"",
     form:{
         "97542c917fdc2ae200e738fe6125af0e":"330624196311252043",
         "3cf22dbc57808998c4d2ebc10f8bfd75":"吴瑶珍",
@@ -27,7 +27,7 @@ module.exports=[
         },
     },{
     url:"http://220.191.224.132:8090/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=53E1A2E9B9AA2E72156C4468EE9C434E; JSESSIONID=5E1C92F999EB508F6533356A04FCEC76",
+    cookie:"",
     form:{
         "6e5419603eaf967a1f0af49666f0eb12":"330624196311252043",
         "55b6a14d7653bf1d3f8f5eec767d7913":"吴瑶珍",
@@ -40,7 +40,7 @@ module.exports=[
         },
     },{
     url: "http://220.191.224.133:8090/yypt/search/book.xhtml",
-    cookie: "JSESSIONID=7DCA50C7F6D80F728A60D310CE7A056E; JSESSIONID=8EDA25E6F72B7A209171D5EC8654E2B3",
+    cookie: "",
     form:{
         "ce401c0829f1658c71a7c61de787a39d":"330624196311252043",
         "cfd9278490d302463d32dde9eba44a0b":"吴瑶珍",
@@ -53,7 +53,7 @@ module.exports=[
         },
     },{
     url:"http://220.191.224.134:8090/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=81F4C40D34ECB2E5D916E77598169D08; JSESSIONID=56A0A43639B50D83C3BC1396DB380270",
+    cookie:"",
     form:{
         "1e5a0117c4babee2d0aac146fa1ad84f":"330624196311252043",
         "79088b1005959237fe206e4adcbf16c0":"吴瑶珍",
@@ -66,7 +66,7 @@ module.exports=[
         },
     },{
     url:"http://220.191.224.159:8090/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=D45347DB36ABE4B36141AA931314821E; JSESSIONID=F19C51AD8FFF8C2D796FC25D6D4D482F",
+    cookie:"",
     form:{
         "d4ccf5df979e61a8929d8919cd8ecb84":"330624196311252043",
         "59183020952d1e245fa1af51b40b3ab4":"吴瑶珍",
