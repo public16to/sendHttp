@@ -9,8 +9,6 @@ const moment = require('moment');
 
 // 表单发送
 const SendForm = (url, content, cookie,callback) => {
-  const timestamp = moment().format("YYYY-MM-DD HH:mm:ss.SSS");
-  console.log(timestamp);
   return rp({
     uri : url,
     method: "POST",
