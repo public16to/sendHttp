@@ -16,7 +16,7 @@ function sendSX(){
     config.forEach(e => {
         timestamp = moment().format("YYYY-MM-DD HH:mm:ss.SSS");
         console.log(timestamp);
-        //send.SendForm(e.url,querystring.stringify(e.form),e.cookie,showResult);
+        send.SendForm(e.url,querystring.stringify(e.form),e.cookie,showResult);
     });
 }
 
@@ -28,4 +28,4 @@ function timeSend(){
     }, 50);
 }
 
-const tmp = new Cron('0 16 16 * * *',()=>timeSend(),null,true,'Asia/Shanghai')
+const tmp = new Cron('0 0 15 * * *',()=>timeSend(),null,true,'Asia/Shanghai')
