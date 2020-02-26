@@ -1,86 +1,16 @@
-module.exports=[
-    {
-    url:"http://220.191.224.159:9898/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=99985BFB0B2CAAA77B2B1BFE5DB827EF; JSESSIONID=7245144099FBE10A5378295DFDA6508F",
-    form:{
-        "538b1762f4c287903b0b57e192ef1044":"330624196311252043",
-        "e2cfa53a47ac80527d1cd7f9374657a8":"吴瑶珍",
-        "745d125264f2a6c3fcb0a6b9c0c77622":"15314618510",
-        "e54f2c105259c21eee2bf4f49090f4b7":"C01095918",
-        "03534a2b75aff04b65e76c4ace9d40af":"330624",
-        "d82473962d1566cd9512cad1ad65b3cd":"zytzd",
-        "1d824144429b51d17015801bc6befdd3":"澄潭镇丰白山村",
-        "random717":"7"
-        },
-    },
-    {
-    url:"http://220.191.224.134:9898/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=E205BFE23561A2AAE8A7755EFF05F30F; JSESSIONID=BB2C42786FBF53B7D39D7C3F50F3C00B",
-    form:{
-        "519f146ef2ca32563afce909ba37d926":"330624196311252043",
-        "8fd5d22ea86e7c2d1ef25babdc36060d":"吴瑶珍",
-        "7f823ab983965d041a3e2a8119f795c2":"15314618510",
-        "5f56a596aefd2157b0a8cd7f79771936":"C01095918",
-        "dcea6c54d2a2eb73fc9141e0f1b5da6e":"330624",
-        "82ac7569742d702f8603d4ec99cf4ddc":"zytzd",
-        "1c48f335984e639129c9e083e18de73c":"澄潭镇丰白山村",
-        "random9653":"45"
-        },
-    },
-    {
-    url:"http://220.191.224.133:9898/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=9B616E4FD262F64C979440EBEF1764A8; JSESSIONID=F1D4EF0D60FEA5572EEE570892876575",
-    form:{
-        "b5fa9c58b4f2f79c3d7f33c83d6c2d73":"330624196311252043",
-        "c4fe91f6a988f8195885fcfa49c6623c":"吴瑶珍",
-        "a29d6d98f629ad4541c93d723f30b124":"15314618510",
-        "525298be90e49407739aef863de7eff2":"C01095918",
-        "4c49038a0aa4914d373bd4d56c9b1879":"330624",
-        "ffe43e92023b74fd9501ddb062bb1066":"zytzd",
-        "24173a360ae15ce042a8d9604733b78a":"澄潭镇丰白山村",
-        "random8901":"10"
-        },
-    },
-    {
-    url:"http://220.191.224.132:9898/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=9AAE4B2F612F6ABE7D669D6982541EDA; JSESSIONID=ED00BEC4E693227877ED5C636F9D5521",
-    form:{
-        "f5ceb2693a61cd211943b5f861597383":"330624196311252043",
-        "249de5ad855694a3f19d5b1687ad89b2":"吴瑶珍",
-        "f60853913de33bb58f4ed24f4d26496f":"15314618510",
-        "f025b0908c2fd6db4268b3f8011d89d1":"C01095918",
-        "a5f48d23fe68d1220ec4a1b5c14b871f":"330624",
-        "6cb0e14678e45e8b02904ba91b640c82":"zytzd",
-        "951916c647f588049697a9ad8a4c1c12":"澄潭镇丰白山村",
-        "random7659":"16"
-        },
-    },
-    {
-    url:"http://220.191.224.124:9898/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=6D456A054EAF473545A72C5ED76314AE; JSESSIONID=30034850D046A389A821CA80C82E75ED",
-    form:{
-        "82fb0da48265526dc2dd4bf7bde565d2":"330624196311252043",
-        "b343527a9c89f1b9e6dca32f19943990":"吴瑶珍",
-        "6bbcef97a21ef9bfd72c1e1cf1fc2a9d":"15314618510",
-        "2a72d23b5440156a8479a5bfdaa360e8":"C01095918",
-        "eabddf92e6c8e4b6e049d055e42fec42":"330624",
-        "da1ffb6ca0d27cecb4138903f380aa76":"zytzd",
-        "f55b8010b571dcc09c78622dda9e6506":"澄潭镇丰白山村",
-        "random2210":"8"
-        },
-    },
-    {
-    url:"http://220.191.224.121:9898/yypt/search/book.xhtml",
-    cookie:"JSESSIONID=17561E7A4EEEE3BCCD7EBF282CB67DEB; JSESSIONID=F578F68C3662EBE731C2DA919EE41270",
-    form:{
-        "40cffa21b81d30829e3bcc519a45470b":"330624196311252043",
-        "ae3ed507854b0a2fe0b3136f81eebed4":"吴瑶珍",
-        "bc8de2e27ce57794da5820b42a5c8c7e":"15314618510",
-        "4629bcbbeb69d6c46f634c4d80ec0031":"C01095918",
-        "7dfe448ebf7a26910d44b8ba8d5e47f6":"330624",
-        "bb335f5538f7fda590e8d8f47fe191e9":"zytzd",
-        "73d10b32e075f76746d470e9c880b0d8":"澄潭镇丰白山村",
-        "random1754":"6"
-        },
-    },
-]
+module.exports = [
+  {
+    url: "http://220.191.224.133:8666/yypt/search/book.xhtml",
+    cookie: "JSESSIONID=657DD5F3189F8D0F6270EE51076428CC; JSESSIONID=1536F6DEC514E74648FAD565E001339E",
+    form: {
+      "b4b4699fa20387dd35b6b70317e3783c": "330624195803212035",
+      "3f46ccb055cba1389b75153763789451": "张红苗",
+      "fbb195952cea78179b6d209805c6c296": "15158173747",
+      "93be4e9c1346605ad45a264d697b1408": "C01045152",
+      "6694eadf213c96ba17a9136b13ab6ce1": "330624",
+      "67f7baf81185f8c0803e77fd8327c537": "zytzd",
+      "4f4f2ac87ca9c30802650abf5d49e0cd": "澄潭镇丰白山村10号",
+      "random6432": "0"
+    }
+  }
+];

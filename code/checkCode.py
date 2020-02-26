@@ -1,21 +1,20 @@
-#brew install imagemagick 
-#brew install tesseract
-#pip3 install tesserocr pillow
+# brew install imagemagick
+# brew install tesseract
+# pip3 install tesserocr pillow
 
-import tesserocr
+import pytesseract
 
-from PIL import Image,ImageDraw
+from PIL import Image,ImageOps
 
 import os
 
 print(os.getcwd())
 
-image = Image.open(os.getcwd()+'/randomCode.jpeg')
+image = Image.open(os.getcwd()+'/3.jpeg')
 
 image = image.convert('L')
 
-
-threshold = 90
+threshold = 128
 table = []
 
 for i in range(256):
@@ -29,13 +28,18 @@ for i in range(256):
         table.append(1)
 
 image = image.point(table, '1')
+image.show()
+
+# image = image.resize((500,100))
+# image=image.crop((10,5,100,34))
 
 
 image.show()
 
-result = tesserocr.image_to_text(image)
+result = pytesseract.image_to_string(image,config="--psm 1 --oem 3")
 
-str1=result.replace(' ','')
-str2=str1.replace('.','')
+str1 = result.replace(' ', '')
+str2 = str1.replace('.', '').replace('i', '1').replace('t', '+').replace('G', '9').replace('Q', '0').replace('S','8').replace("<","=").replace("B","8")
 
+print(str1)
 print(str2)

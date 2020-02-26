@@ -44,5 +44,21 @@ const GetHtml = (url, callback) => {
   .catch((error) => error);
 }
 
+// 获取jpeg
+const GetJpeg = (url, callback) => {
+  return rp({
+    uri : url,
+    method: "GET",
+  })
+  .then((response) => {
+    if (callback) {
+      callback(response);
+    }
+    return response;
+  })
+  .catch((error) => error);
+}
+
 exports.SendForm = SendForm;
 exports.GetHtml = GetHtml;
+exports.GetJpeg = GetJpeg;
