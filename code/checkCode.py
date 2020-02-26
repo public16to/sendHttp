@@ -4,13 +4,12 @@
 
 import pytesseract
 
-from PIL import Image,ImageOps
+from PIL import Image, ImageOps
 
 import os
 
-print(os.getcwd())
 
-image = Image.open(os.getcwd()+'/3.jpeg')
+image = Image.open(os.path.dirname(__file__)+'/3.jpeg')
 
 image = image.convert('L')
 
@@ -36,10 +35,18 @@ image.show()
 
 image.show()
 
-result = pytesseract.image_to_string(image,config="--psm 1 --oem 3")
+result = pytesseract.image_to_string(image, config="--psm 1 --oem 3")
 
 str1 = result.replace(' ', '')
-str2 = str1.replace('.', '').replace('i', '1').replace('t', '+').replace('G', '9').replace('Q', '0').replace('S','8').replace("<","=").replace("B","8")
+str2 = str1.replace(
+    '.', '').replace(
+    'i', '1').replace(
+    't', '+').replace(
+    'G', '9').replace(
+    'Q', '0').replace(
+    'S', '8').replace(
+    "<", "=").replace(
+    "B", "8")
 
 print(str1)
 print(str2)
