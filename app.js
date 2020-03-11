@@ -22,7 +22,6 @@ function sendSX() {
 
 // 定时抢
 function timeSend() {
-  sendSX();
   setInterval(() => {
     sendSX();
   }, 50);

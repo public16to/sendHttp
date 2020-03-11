@@ -17,6 +17,13 @@ const fs = require('fs');
 // send.GetHtml("http://220.191.224.134:8090/yypt/search/portlet.xhtml",showResult);
 // send.GetHtml("http://220.191.224.159:8090/yypt/search/portlet.xhtml",showResult);
 const saveJpeg=(res)=>{
-  fs.writeFile('a.jpeg');
+  // var imgData = "";
+  // res.setEncoding("binary"); //一定要设置response的编码为binary否则会下载下来的图片打不开
+  // res.on("data", function(chunk){ //这步是我百度来的。。。。
+  //     imgData+=chunk;
+  // });
+  fs.writeFile('aa.png',res,(err)=>{
+    console.log(err)
+  });
 }
-send.GetJpeg("http://220.191.224.133:8666/yypt/search/random.xhtml?r=0.24254479444652083",saveJpeg);
+send.GetJpeg("http://jwgl.cqjtu.edu.cn/jsxsd/verifycode.servlet?t=0.33489178693749055",saveJpeg);
